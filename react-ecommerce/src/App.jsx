@@ -1,7 +1,7 @@
-function App() {
-  const [count, setCount] = useState(0);
+import Home from "./pages/Home";
 
-  return <>Ecommerce</>;
+function App() {
+  return <Home />;
 }
 
 export default App;
